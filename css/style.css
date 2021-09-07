@@ -1,0 +1,89 @@
+
+body{
+    text-align: center;
+    height: 720px;
+    font-style: italic;
+    font-weight : bold;
+    color: white;
+}
+
+#quote span{
+    font-size : 25px;
+}
+
+
+input{
+    width : 240px;
+    height: 20px;
+    border : lightgrey;
+    background-color: transparent;
+    color:white !important;
+}
+
+/* textarea:focus, input:focus {
+    color: white;
+} */
+
+input::placeholder {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+#quote span, #weather span{
+    display: block;
+}
+
+/* id zone */
+#todo-form{
+    display:inline-block;
+
+}
+#quote{
+    width: 540px;
+    margin : auto;
+
+}
+#quote span:first-child{
+    margin-bottom: 10px;
+}
+
+/* class zone */
+.container{
+
+    box-sizing: border-box;
+    width:800px;
+    height: 500px;
+    padding: 100px;
+    margin: 200px auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.todo-list-box{
+    text-align: left;
+    width: 540px;
+    margin : auto;
+}
+
+button {
+ 
+    height: 0;
+    line-height: 0;
+    opacity: 0.6;
+    font-family: Arial;
+    width: 30px;
+    font-size: 15px;
+    padding: 12px;
+    background-color: transparent;
+    color : white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border:none;
+
+ }
